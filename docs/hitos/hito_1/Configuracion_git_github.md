@@ -6,7 +6,7 @@
 
 Aquí se muestra que se ha configurado correctamente la autenticación en dos pasos.
 
-![AUtenticación](../../img/Configuracion_two-factor_authenticator.png)
+![Autenticación](../../img/Configuracion_two-factor_authenticator.png)
 ### Nombre y correo correctos en los commits
 
 Se ha configurado correctamente el nombre y correo para la realización de los commits.
