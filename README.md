@@ -4,6 +4,6 @@ En este proyecto se busca resolver una problemática común en la gestión de ci
 
 ## Hito 1
 
-- Para visualizar y la configuración de git y GitHub pulse [aquí](./docs/hitos/hito_0/Configuracion_git_github.md)
+- Para visualizar y la configuración de git y GitHub pulse [aquí](./docs/hitos/hito_1/Configuracion_git_github.md)
 - La Licencia que se va a usar es GNU, más información [aquí](./LICENSE)
 - Para comprobar las historias de usuario pulse [aquí](./docs/hitos/hito_1/historias_usuarios.md)

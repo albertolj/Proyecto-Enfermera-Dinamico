@@ -1,4 +1,4 @@
-# Hito 0
+# Hito 1
 
 ## Configuración de git y GitHub
 
