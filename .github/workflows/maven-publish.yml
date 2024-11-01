@@ -3,10 +3,10 @@ name: Java CI
 on:
   push:
     branches:
-      - main  # Cambia 'main' si tu rama principal tiene otro nombre
+      - main  
   pull_request:
     branches:
-      - main  # Cambia 'main' si tu rama principal tiene otro nombre
+      - main  
 
 jobs:
   build:
@@ -20,6 +20,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '17'
+        distribution: 'temurin'  
 
     - name: Build with Maven
       run: mvn clean install
