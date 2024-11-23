@@ -9,3 +9,6 @@ En este proyecto se busca resolver una problemática común en la gestión de ci
 - Para comprobar las historias de usuario pulse [aquí](./docs/hitos/hito_1/historias_usuarios.md)
 
 ## Hito 2
+
+- Para comprar las elecciones realizadas pulse [aquí](./docs/hitos/hito_2/eleccion.md)
+- Para comprar las integración continua con GitHub Actions pulse [aquí](./docs/hitos/hito_2/integracion_continua.md)
