@@ -70,4 +70,4 @@ Su configuración se encuentra en el archivo `logback-spring.xml` y actualmente 
 
 Se vuelve a comprobar que se ejecutan los tests corretcamente.
 
-![Test](../../img/test2.png)
+![Test](../../img/test_2.png)
