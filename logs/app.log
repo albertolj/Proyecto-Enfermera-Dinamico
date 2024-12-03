@@ -1,0 +1,44 @@
+2024-12-02 16:31:04 - Starting MedicoControllerTest using Java 17.0.12 with PID 6472 (started by prieg in C:\Users\prieg\OneDrive\Escritorio\CC)
+2024-12-02 16:31:04 - The following 1 profile is active: "test"
+2024-12-02 16:31:06 - Initializing Spring TestDispatcherServlet ''
+2024-12-02 16:31:06 - Initializing Servlet ''
+2024-12-02 16:31:06 - Completed initialization in 1 ms
+2024-12-02 16:31:06 - Started MedicoControllerTest in 2.439 seconds (process running for 3.396)
+2024-12-02 16:31:06 - Could not detect default configuration classes for test class [medico.cc.controller.PacienteControllerTest]: PacienteControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-02 16:31:06 - Found @SpringBootConfiguration medico.cc.CcApplication for test class medico.cc.controller.PacienteControllerTest
+2024-12-02 16:31:07 - Starting PacienteControllerTest using Java 17.0.12 with PID 6472 (started by prieg in C:\Users\prieg\OneDrive\Escritorio\CC)
+2024-12-02 16:31:07 - The following 1 profile is active: "test"
+2024-12-02 16:31:07 - Initializing Spring TestDispatcherServlet ''
+2024-12-02 16:31:07 - Initializing Servlet ''
+2024-12-02 16:31:07 - Completed initialization in 0 ms
+2024-12-02 16:31:07 - Started PacienteControllerTest in 0.296 seconds (process running for 4.139)
+2024-12-02 16:31:07 - Could not detect default configuration classes for test class [medico.cc.controller.UsuarioControllerTest]: UsuarioControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-02 16:31:07 - Found @SpringBootConfiguration medico.cc.CcApplication for test class medico.cc.controller.UsuarioControllerTest
+2024-12-02 16:31:07 - Starting UsuarioControllerTest using Java 17.0.12 with PID 6472 (started by prieg in C:\Users\prieg\OneDrive\Escritorio\CC)
+2024-12-02 16:31:07 - The following 1 profile is active: "test"
+2024-12-02 16:31:07 - Initializing Spring TestDispatcherServlet ''
+2024-12-02 16:31:07 - Initializing Servlet ''
+2024-12-02 16:31:07 - Completed initialization in 1 ms
+2024-12-02 16:31:07 - Started UsuarioControllerTest in 0.228 seconds (process running for 4.504)
+2024-12-03 12:16:15 - Starting MedicoControllerTest using Java 17.0.12 with PID 6336 (started by prieg in C:\Users\prieg\OneDrive\Escritorio\CC)
+2024-12-03 12:16:15 - The following 1 profile is active: "test"
+2024-12-03 12:16:18 - Initializing Spring TestDispatcherServlet ''
+2024-12-03 12:16:18 - Initializing Servlet ''
+2024-12-03 12:16:18 - Completed initialization in 0 ms
+2024-12-03 12:16:18 - Started MedicoControllerTest in 3.444 seconds (process running for 4.732)
+2024-12-03 12:16:18 - Could not detect default configuration classes for test class [medico.cc.controller.PacienteControllerTest]: PacienteControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-03 12:16:18 - Found @SpringBootConfiguration medico.cc.CcApplication for test class medico.cc.controller.PacienteControllerTest
+2024-12-03 12:16:18 - Starting PacienteControllerTest using Java 17.0.12 with PID 6336 (started by prieg in C:\Users\prieg\OneDrive\Escritorio\CC)
+2024-12-03 12:16:18 - The following 1 profile is active: "test"
+2024-12-03 12:16:19 - Initializing Spring TestDispatcherServlet ''
+2024-12-03 12:16:19 - Initializing Servlet ''
+2024-12-03 12:16:19 - Completed initialization in 0 ms
+2024-12-03 12:16:19 - Started PacienteControllerTest in 0.381 seconds (process running for 5.796)
+2024-12-03 12:16:19 - Could not detect default configuration classes for test class [medico.cc.controller.UsuarioControllerTest]: UsuarioControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-03 12:16:19 - Found @SpringBootConfiguration medico.cc.CcApplication for test class medico.cc.controller.UsuarioControllerTest
+2024-12-03 12:16:19 - Starting UsuarioControllerTest using Java 17.0.12 with PID 6336 (started by prieg in C:\Users\prieg\OneDrive\Escritorio\CC)
+2024-12-03 12:16:19 - The following 1 profile is active: "test"
+2024-12-03 12:16:19 - Initializing Spring TestDispatcherServlet ''
+2024-12-03 12:16:19 - Initializing Servlet ''
+2024-12-03 12:16:19 - Completed initialization in 0 ms
+2024-12-03 12:16:19 - Started UsuarioControllerTest in 0.295 seconds (process running for 6.267)

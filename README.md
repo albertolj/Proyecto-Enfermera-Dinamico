@@ -10,5 +10,5 @@ En este proyecto se busca resolver una problemática común en la gestión de ci
 
 ## Hito 2
 
-- Para comprar las elecciones realizadas pulse [aquí](./docs/hitos/hito_2/eleccion.md)
-- Para comprar las integración continua con GitHub Actions pulse [aquí](./docs/hitos/hito_2/integracion_continua.md)
+- Para visualizar las elecciones realizadas pulse [aquí](./docs/hitos/hito_2/eleccion.md)
+- Para visualizaa la integración continua con GitHub Actions pulse [aquí](./docs/hitos/hito_2/integracion_continua.md)
