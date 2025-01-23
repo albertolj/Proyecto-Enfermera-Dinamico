@@ -1,0 +1,80 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+        - net
+    depends_on:
+      - db1
+      - nginx
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db1:5432/tu_base_datos
+      - SPRING_DATASOURCE_USERNAME=usuario
+      - SPRING_DATASOURCE_PASSWORD=contraseña
+
+  db1:
+    image: postgres:15
+    container_name: postgres-db
+    environment:
+      POSTGRES_USER: usuario
+      POSTGRES_PASSWORD: contraseña
+      POSTGRES_DB: tu_base_datos
+    networks:
+        - net
+    volumes:
+      - ./db_data:/var/lib/postgresql/data
+  
+  phpmyadmin:
+    image: phpmyadmin:5.2.1
+    networks:
+        - net
+    environment:
+        PMA_ARBITRARY: 1
+    deploy:
+        restart_policy:
+            condition: on-failure
+
+  nginx:
+    image: jc21/nginx-proxy-manager:2.12.2
+    ports:
+        - '80:80'
+        - '81:81'
+        - '443:443'
+    volumes:
+        - ./db_nginx:/data
+        - ./db_letsencrypt:/etc/letsencrypt
+    networks:
+        - net
+    deploy:
+        mode: global
+        restart_policy:
+            condition: on-failure
+    restart: unless-stopped
+    environment:
+        DB_MYSQL_HOST: "db"
+        DB_MYSQL_PORT: 3306
+        DB_MYSQL_USER: "nginx"
+        DB_MYSQL_PASSWORD: "nginx"
+        DB_MYSQL_NAME: "nginx"
+    depends_on:
+        - db
+  db:
+    image: jc21/mariadb-aria:10.11.5
+    networks:
+        - net
+    environment:
+        MYSQL_ROOT_PASSWORD: "root"
+        MYSQL_DATABASE: "nginx"
+        MYSQL_USER: "nginx"
+        MYSQL_PASSWORD: "nginx"
+        MARIADB_AUTO_UPGRADE: '1'
+    volumes:
+        - ./db_mysql:/var/lib/mysql
+    deploy:
+        restart_policy:
+            condition: on-failure
+
+networks:
+    net:
