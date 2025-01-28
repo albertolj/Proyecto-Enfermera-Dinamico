@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: medico.cc.controller.MedicoControllerTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.446 s -- in medico.cc.controller.MedicoControllerTest
