@@ -1,0 +1,30 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Authenticate
+        run: |
+          echo "${{ secrets.PAAS_AUTH_TOKEN }}" | docker login [PaaS-registry] -u albertolj --password-stdin
+
+      - name: Build Docker image
+        run: |
+          docker build -t [PaaS-registry]/app:latest .
+
+      - name: Push Docker image
+        run: |
+          docker push [PaaS-registry]/app:latest
+
+      - name: Deploy to [PaaS]
+        run: |
+          [paas-cli-command] deploy --image [PaaS-registry]/[app-name]:latest
