@@ -20,3 +20,7 @@ En este proyecto se busca resolver una problemática común en la gestión de ci
 ## Hito 4
 
 - Para visualizar los cambios realizados para la creación de los contenedores pulse [aquí](./docs/hitos/hito4/docker.md)
+
+## Hito 5
+
+- Para visualizar los cambios para realizar un despliegue en PaaS pulse [aquí](./docs/hitos/hito_5/despliegue.md)
