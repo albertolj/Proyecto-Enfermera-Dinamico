@@ -27,8 +27,4 @@ jobs:
         with:
           context: .
           push: true
-<<<<<<< HEAD
           tags: ghcr.io/albertolj/turnoswap:latest
-=======
-          tags: ghcr.io/albertolj/tunorswap:latest
->>>>>>> d903217 (Se arregla el fichero compose.yml)
