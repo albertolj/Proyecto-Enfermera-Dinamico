@@ -11,8 +11,12 @@ En este proyecto se busca resolver una problemática común en la gestión de ci
 ## Hito 2
 
 - Para visualizar las elecciones realizadas pulse [aquí](./docs/hitos/hito_2/eleccion.md)
-- Para visualizaa la integración continua con GitHub Actions pulse [aquí](./docs/hitos/hito_2/integracion_continua.md)
+- Para visualizar la integración continua con GitHub Actions pulse [aquí](./docs/hitos/hito_2/integracion_continua.md)
 
 ## Hito 3
 
 - Para visualizar los cambios realizados, explicando los microservicios pulse [aquí](./docs/hitos/hito_3/microservicios.md)
+
+## Hito 4
+
+- Para visualizar los cambios realizados para la creación de los contenedores pulse [aquí](./docs/hitos/hito4/docker.md)
