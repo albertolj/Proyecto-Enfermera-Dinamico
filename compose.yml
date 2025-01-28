@@ -6,11 +6,12 @@ services:
       dockerfile: Dockerfile
     networks:
         - net
+    image: ghcr.io/albertolj/TurnoSwap:latest
     depends_on:
       - db1
       - nginx
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://db1:5432/tu_base_datos
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db1/tu_base_datos
       - SPRING_DATASOURCE_USERNAME=usuario
       - SPRING_DATASOURCE_PASSWORD=contraseña
 
